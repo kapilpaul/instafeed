@@ -1,0 +1,30 @@
+{
+	"name": "instagram-api-feed",
+	"version": "1.0.0",
+	"description": "This plugin will display an Instagram feed using the Instagram API.",
+	"main": "src/js/index.js",
+	"scripts": {
+		"build": "npm run clean && npm run make:pot && wp-scripts build ./assets/src/js/admin/admin.js --output-path=./assets/js",
+		"lint:css": "wp-scripts lint-style",
+		"lint:js": "wp-scripts lint-js",
+		"make:pot": "wp i18n make-pot --exclude='dist,build,node_modules,vendors,wordpress' --slug='insta-api-feed' --domain='insta-api-feed' . languages/insta-api-feed.pot",
+		"start": "wp-scripts start ./assets/src/js/admin/admin.js --output-path=./assets/js",
+		"clean": "rimraf ./assets/css && rimraf ./assets/js",
+		"zip": "node zip --zip",
+		"release": "npm run build && npm run zip"
+	},
+	"keywords": [
+		"insta-api-feed"
+	],
+	"author": "kapilpaul",
+	"license": "ISC",
+	"devDependencies": {
+		"@wordpress/scripts": "^19.0.0",
+		"rimraf": "^3.0.2",
+		"shelljs": "^0.8.4"
+	},
+	"dependencies": {
+		"@wordpress/api-fetch": "^5.2.4",
+		"simplelightbox": "^2.10.3"
+	}
+}

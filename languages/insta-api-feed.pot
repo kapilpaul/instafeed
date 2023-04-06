@@ -1,0 +1,111 @@
+# Copyright (C) 2022 Kapil Paul
+# This file is distributed under the GPLv2.
+msgid ""
+msgstr ""
+"Project-Id-Version: Instagram API feed 1.0.0\n"
+"Report-Msgid-Bugs-To: https://wordpress.org/support/plugin/insta-api-feed\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"POT-Creation-Date: 2022-04-01T07:40:43+00:00\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"X-Generator: WP-CLI 2.6.0\n"
+"X-Domain: insta-api-feed\n"
+
+#. Plugin Name of the plugin
+msgid "Instagram API feed"
+msgstr ""
+
+#. Plugin URI of the plugin
+msgid "https://kapilpaul.me/instagram-api-feed"
+msgstr ""
+
+#. Description of the plugin
+msgid "That plugin will display an Instagram feed using the Instagram API."
+msgstr ""
+
+#. Author of the plugin
+msgid "Kapil Paul"
+msgstr ""
+
+#. Author URI of the plugin
+msgid "https://kapilpaul.me"
+msgstr ""
+
+#: includes/Admin/Menu.php:49
+#: includes/Frontend/Shortcode.php:40
+#: includes/Widgets/InstagramFeedWidget.php:84
+msgid "Instagram Feed"
+msgstr ""
+
+#: includes/Admin/Menu.php:50
+#: assets/src/js/admin/App.js:12
+msgid "Instagram API Feed"
+msgstr ""
+
+#: includes/Admin/Menu.php:115
+msgid "Settings"
+msgstr ""
+
+#: includes/API/Instagram.php:65
+msgid "No username/access token found."
+msgstr ""
+
+#: includes/API/Settings.php:110
+msgid "Something went wrong while saving."
+msgstr ""
+
+#: includes/API/Settings.php:131
+msgid "You have no permission to do that"
+msgstr ""
+
+#: includes/Frontend/Shortcode.php:46
+msgid "See More"
+msgstr ""
+
+#: includes/Widgets/InstagramFeedWidget.php:85
+msgid "Display Instagram Feeds."
+msgstr ""
+
+#: templates/feeds.php:61
+#: templates/feeds.php:62
+msgid "Instagram feed image"
+msgstr ""
+
+#: templates/widgets/instagram-feed/form.php:12
+msgid "class not found"
+msgstr ""
+
+#: templates/widgets/instagram-feed/form.php:26
+msgid "Title:"
+msgstr ""
+
+#: assets/src/js/admin/Settings.js:59
+msgid "Updated Successfully!"
+msgstr ""
+
+#: assets/src/js/admin/Settings.js:118
+msgid "Widget Enable/Disable"
+msgstr ""
+
+#: assets/src/js/admin/Settings.js:125
+msgid "Enable Widget"
+msgstr ""
+
+#: assets/src/js/admin/Settings.js:141
+msgid "Instagram Username / ID"
+msgstr ""
+
+#: assets/src/js/admin/Settings.js:155
+msgid "Instagram API Access Token"
+msgstr ""
+
+#: assets/src/js/admin/Settings.js:192
+msgid "Saving"
+msgstr ""
+
+#: assets/src/js/admin/Settings.js:193
+msgid "Save"
+msgstr ""

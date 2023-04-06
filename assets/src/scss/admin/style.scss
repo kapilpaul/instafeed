@@ -1,0 +1,66 @@
+/* stylelint-disable */
+.instagram-feed-setting-container {
+    .instagram-feed-settings-heading {
+        &:before {
+            font-size: 30px;
+            padding-right: 15px;
+        }
+    }
+}
+
+.instagram-feed-notice-conatiner {
+    margin-bottom: 15px;
+
+    & > div {
+        margin-left: 0;
+        margin-right: 0;
+    }
+}
+
+.settings_container {
+    margin: 20px 0;
+
+    .input-container {
+        background: #fff;
+        padding: 15px;
+        border-radius: 5px;
+        box-shadow: 2px 2px 5px #ddd;
+
+        h3 {
+            margin-top: 0;
+        }
+
+        .form-inputs {
+            .group {
+                margin-bottom: 20px;
+                overflow: hidden;
+
+                input {
+                    border-color: #bebcbc;
+                    height: 36px;
+                    width: 400px;
+                    display: block;
+                }
+
+                .components-form-toggle__track,
+                .components-form-toggle__thumb {
+                    margin-left: 5px;
+                }
+
+                .components-base-control__label {
+                    font-weight: 600;
+                }
+            }
+        }
+    }
+
+    &__general {
+        .input-container {
+            margin-bottom: 15px;
+
+            .form-inputs {
+                display: block;
+            }
+        }
+    }
+}

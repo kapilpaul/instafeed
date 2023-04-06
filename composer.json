@@ -1,0 +1,28 @@
+{
+    "name": "kapilpaul/instagram-api-feed",
+    "description": "This plugin will display an Instagram feed using the Instagram API.",
+    "type": "wordpress-plugin",
+    "license": "GPLv2",
+    "authors": [
+        {
+            "name": "Kapil Paul",
+            "email": "kapilpaul007@gmail.com"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {},
+    "require-dev": {
+        "wp-coding-standards/wpcs": "^2.3",
+        "dealerdirect/phpcodesniffer-composer-installer": "^0.4.1 || ^0.5 || ^0.6.2 || ^0.7",
+        "phpcompatibility/phpcompatibility-wp": "dev-master",
+        "phpunit/phpunit": ">=5.7.27"
+    },
+    "autoload": {
+        "psr-4": {
+            "InstaFeed\\": "includes/"
+        },
+        "files": [
+            "includes/functions.php"
+        ]
+    }
+}
